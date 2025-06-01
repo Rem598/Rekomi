@@ -1,19 +1,22 @@
 Rekomi 🎌
-Rekomi is a lightweight anime tracker and recommender web app built with plain JavaScript, HTML, and CSS. It helps you log the anime you’ve watched and get recommendations for what to watch next—right in your browser, with no fancy frameworks or databases.
+Rekomi helps you track anime you’ve watched, rate them, and get personalized recommendations — all automatically. Just type the title, pick your rating, and Rekomi handles the rest.
 
-🌟 Features
-✅ Track your watched anime with title and genre
+Features
+Automatic genre detection using Kitsu API.
 
-✅ Store your list in localStorage—your data stays even after refreshing!
+Star rating system (1 to 5 stars) when adding anime.
 
-✅ Get recommendations based on genre (preloaded suggestions)
+Personalized recommendations based on your ratings and favorite genres
 
-✅ Simple, no-frills design to focus on functionality
+Caching for fast load times and offline support
 
-🛠️ How It Works
-Add an anime
 
-Enter the title and genre in the form.
+Why Rekomi?
+Keeps your watchlist organized and easy to manage.
+
+Smart recommendations that improve as you rate more anime.
+
+
 
 Hit Add.
 
