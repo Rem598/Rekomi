@@ -1,0 +1,145 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1e1e2f;
+  color: #e0e0f0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  padding: 2rem 1rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(255, 105, 0, 0.4);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+header p {
+  font-weight: 400;
+  margin-top: 0.3rem;
+  font-size: 1.1rem;
+  color: #f0c27b;
+}
+
+main {
+  flex-grow: 1;
+  padding: 2rem 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+section {
+  background: #292946;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.05);
+}
+
+section h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ff6a00;
+  padding-bottom: 0.4rem;
+  font-weight: 700;
+  color: #ff6a00;
+}
+
+form {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+form input {
+  flex: 1 1 140px;
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+}
+
+form button {
+  background: #ff6a00;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background: #ee0979;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+li {
+  background: #3a3a6e;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(255, 105, 0, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: transform 0.2s ease;
+}
+
+li:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px #ff6a00;
+}
+
+.anime-poster {
+  width: 50px;
+  height: 70px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.pagination button {
+  margin: 0 4px;
+  padding: 6px 10px;
+  border: none;
+  background-color: #eee;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.pagination button:disabled {
+  background-color: #999;
+  cursor: default;
+}
+
+#star-rating .star {
+  font-size: 24px;
+  cursor: pointer;
+  color: gray;
+}
+#star-rating .star.selected,
+#star-rating .star.hovered {
+  color: gold;
+}

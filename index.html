@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rekomi</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <h1>Rekomi</h1>
+    <p>Track your anime journey & discover what to watch next</p>
+  </header>
+
+  <main>
+    <section id="add-anime">
+      <h2>Add Anime</h2>
+      <form id="anime-form">
+        <input type="text" id="anime-title" placeholder="Anime Title" required />
+        <div id="star-rating">
+           Rate: 
+            <span data-value="1" class="star">&#9734;</span>
+            <span data-value="2" class="star">&#9734;</span>
+            <span data-value="3" class="star">&#9734;</span>
+            <span data-value="4" class="star">&#9734;</span>
+            <span data-value="5" class="star">&#9734;</span>
+        </div>
+  
+        <button type="submit">Add</button>
+      </form>
+    </section>
+
+    <section id="anime-list">
+      <h2>Your Anime List</h2>
+      <ul id="list"></ul>
+    </section>
+
+    <div id="pagination" class="pagination"></div>
+
+
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <ul id="recommendation-list"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
