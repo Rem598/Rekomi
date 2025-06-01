@@ -17,8 +17,7 @@ Rekomi helps you track anime you’ve watched, rate them, and get personalized r
 - Smart recommendations that improve as you rate more anime.
 
 ## How to Use
-- [Open this link](https://your-link.com)
-
+- [Open this link](https://rem598.github.io/Rekomi/)
   
 - Write an anime title
 
