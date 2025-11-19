@@ -1,4 +1,4 @@
-## Rekomi 🎌
+## Rekomi 
 Rekomi helps you track anime you’ve watched, rate them, and get personalized recommendations. Just type the title, pick your rating, and Rekomi handles the rest.
 
 ## Features
