@@ -33,5 +33,5 @@ After adding an anime, you’ll see genre-based suggestions.
 
 All data is saved in your browser
 
-
+Uses localStorage, so your list sticks around between sessions.
 
